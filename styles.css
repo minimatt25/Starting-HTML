@@ -1,0 +1,42 @@
+
+/*.container from https://codedamn.com/news/frontend/how-to-put-image-and-text-side-by-side-in-html*/
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+/*all my changes to text and background*/
+body{
+    background-color: rgb(50, 152, 165, 0.8)
+}
+
+/*i know this is a terrible class naming system, but i'll fix it later 😂*/
+h1.h11{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+ol.ol1{
+    border-style: inset;
+    border-width: small;
+    border-color: black;
+    max-width: 620px;
+    padding: 8px;
+    padding-left: 25px;
+    position: relative; left: 10px; top: 2px;
+    background-color: rgb(137, 223, 137);
+    color: black;
+}
+
+p.p1{
+    border-style: inset;
+    border-width: small;
+    border-color: black;
+    max-width: 1150px;
+    padding: 8px;
+    position: relative; left: 10px; top: 2px;
+    background-color: rgb(137, 223, 137);
+    color: black;
+}

@@ -3,24 +3,23 @@
     <head>
         <!--this is the title of the page itself-->
         <title>Learning HTML</title>
-        <style>
-            h1 {
-                color: rgb(119, 54, 179);
-                font-family: Arial, Helvetica, sans-serif;
-            }
-        </style>
+        <link rel="stylesheet" href="styles.css">
     </head>
 
-    <body - style="background-color: rgb(50, 152, 165);">
+    <body>
         <!--this is the text on the actual page-->
-        <h1>My first (new) website</h1>
+        <div class="container">
+            <a href="https://en.wikipedia.org/wiki/HTML"><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML image" style="width: 70px;"></a>
+            <h1 class="h11">My first (new) website</h1>
+        </div>
+        
         <hr>
         <h2 - style="font-family: Arial, Helvetica, sans-serif;">How do things work?</h2>
         <p>
             this is  a paragraph (using &lt;p&gt;), you can't actually use greater than and less than symbols as they are reserved characters.<br>
             instead i used & lt and & gt.<br><br>
 
-            <ol>
+            <ol class="ol1">
                 <li>the cool line splitting the screen at the top you can use &lt;hr&gt;.</li>
                 <li>to change the background colour, inside &lt;body&gt; add a dash and put style="background-color:"</li> 
                 <li>to change text colour go inside the &lt;p&gt; or &lt;h&gt; and do - style="color"</li>
@@ -29,9 +28,9 @@
             </ol> 
             if you need to change a multiple things at the same time about some text (e.g. font and colour),<br> you can put &lt;style&gt; in the header this can change stuff for every instance of the text, like how all my h1's have colour and font
         </p>
-        <a href="https://en.wikipedia.org/wiki/HTML"><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML image" style="width: 100px; height: 200px;"></a><br>
-        <p>
-            the image above was made using &lt;img src="the link to the image online" alt="name of image that appears when it isn't working" style="width: 100px; height: 200px;"&gt;<br>
+        
+        <p class="p1">
+            the image next to the title was made using &lt;img src="the link to the image online" alt="name of image that appears when it isn't working" style="width: 100px; height: 200px;"&gt;<br>
             , if you click on the image it opens a hyperlink, this is &lt;a href="link">Name of thing&lt;/a&gt;
         </p>
         
